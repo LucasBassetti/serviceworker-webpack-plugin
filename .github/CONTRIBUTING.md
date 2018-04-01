@@ -45,14 +45,15 @@ Before you submit an issue, please search the issue tracker, maybe an issue for 
 
 We want to fix all the issues as soon as possible, but before fixing a bug we need to reproduce and confirm it. Having a reproducible 
 scenario gives us wealth of important information without going back & forth to you with additional questions.
+I you can, provide a repository with minimal reproduction steps.
 
-You can file new issues by filling out our [new issue form](https://github.com/devCrossNet/vue-starter/issues/new).
+You can file new issues by filling out our [new issue form](https://github.com/oliviertassinari/serviceworker-webpack-plugin/issues/new).
 
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
 Before you submit your Pull Request (PR) consider the following guidelines:
 
-* Search [GitHub](https://github.com/devCrossNet/vue-starter/pulls) for an open or closed PR
+* Search [GitHub](https://github.com/oliviertassinari/serviceworker-webpack-plugin/pulls) for an open or closed PR
   that relates to your submission. You don't want to duplicate effort.
 * Make your changes in a new git branch:
 
@@ -78,14 +79,19 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     git push origin my-fix-branch
     ```
 
-* In GitHub, send a pull request to `web-app:master`.
+* In GitHub, send a pull request to `serviceworker-webpack-plugin:master`.
 * If we suggest changes then:
-  * Make the required updates.
-  * Re-run the test suites to ensure tests are still passing.
-  * Rebase your branch and force push to your GitHub repository (this will update your Pull Request):
+  * Rebase your branch:
 
     ```shell
     git rebase master -i
+    ```
+  * Make the required updates.
+  * Re-run the test suites to ensure tests are still passing.
+  * Commit your changes.
+  * Force push to your GitHub repository (this will update your Pull Request):
+
+    ```shell
     git push -f
     ```
 

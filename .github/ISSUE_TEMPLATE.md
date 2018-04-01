@@ -8,17 +8,18 @@
 ```
 browser:
 browser version: 
-operating system: 
+operating system:
+webpack version:
 ```
 
 
 ## Repro steps.
 <!--Simple steps to reproduce this bug.-->
 
-## Desired functionality.
+## Desired or expected functionality
 <!--What would like to see implemented?
-What is the usecase?-->
+What is the use case?-->
 
 
 ### Mention any other details that might be useful.
-<!--include a gif, video or other assets that can help to fix this bug.-->
+<!--include a link to a repository with minimal reproduction steps, gif, video or other assets that can help to fix this bug.-->
